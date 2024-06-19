@@ -3,9 +3,6 @@
         max-width: 1140px;
     }
 
-    .team-member {
-        /* min-width: 277px; */
-    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -140,7 +137,6 @@
         max-width: 757px;
     }
     .team-member {
-        /* min-width: 232px; */
         object-position: center;
         background-repeat: no-repeat;
     }
@@ -159,7 +155,6 @@
     .logo-wrapper {
         flex-flow: column;
         justify-content: space-around;
-        /* margin-bottom: -20px; */
     }
 
     .logo-image {
@@ -314,8 +309,6 @@
     .center-btn {
         gap: 0.5rem;
         margin-top: 0.5rem;
-        /* display: flex;
-        flex-direction: column; */
     }
 
     .work-para {
@@ -652,7 +645,4 @@
     .about p {
         text-align: start;
     }
-
-
-
 }
