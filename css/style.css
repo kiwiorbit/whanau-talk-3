@@ -660,19 +660,9 @@ aside {
     left: -100%;
     overflow-x: hidden;
     transition: 0.5s;
-    padding: 60px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     text-align: center;
     text-transform: uppercase;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-}
-
-.sidepanel::-webkit-scrollbar {
-    width: 3px;
-}
-
-.sidepanel::-webkit-scrollbar-thumb {
-    background: var(--gradient1);
 }
 
 .sidebar {
