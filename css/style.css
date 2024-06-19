@@ -660,7 +660,7 @@ aside {
     left: -100%;
     overflow-x: hidden;
     transition: 0.5s;
-    padding: 100px 20px 20px 20px;
+    padding: 60px 20px 20px 20px;
     text-align: center;
     text-transform: uppercase;
     backdrop-filter: blur(10px);
@@ -702,7 +702,7 @@ aside ul {
 aside ul li {
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
+    padding-bottom: 0.9rem;
 }
 
 aside li a {
@@ -729,15 +729,14 @@ aside li a {
 }
 
 .hero h1 {
-        color: #ffffff;
+    color: #ffffff;
     text-transform: uppercase;
-    backdrop-filter: blur(10px) saturate(150%);
-    -webkit-backdrop-filter: blur(10px) saturate(150%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 0.7rem;
     box-shadow: 0 4px 60px rgba(0, 0, 0, 0.3);
     padding: 20px 30px;
     letter-spacing: 1px;
-    /* text-wrap: nowrap; */
     font-size: 50px;
 }
 
