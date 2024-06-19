@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./css/easy.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <link rel="shortcut icon" href="./images/contrastlogo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/contrastlogo.webp" type="image/x-icon">
+    
 
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -25,7 +26,7 @@
             <!-- ====== 1.1. Header section ====== -->
             <header>
                 <nav class="container navbar">
-                    <a class="navbar-logo" href=""><img src="./images/contrastlogo.png" alt="logo"></a>
+                    <a class="navbar-logo" href=""><img src="./images/contrastlogo.webp" alt="logo"></a>
                     <div class="container-nav flex">
                         <!-- site logo -->
                         <button class="navbar-toggler" onclick="toggleSidebar()" type="button">
@@ -55,7 +56,7 @@
                 <!-- Sidebar -->
                 <aside id="mySidepanel" class="sidepanel">
                     <div class="sidebar flex">
-                        <a href=""><img src="./images/ear logo ori white.png" alt="logo"></a>
+                        <a href=""><img src="./images/ear logo ori white.webp" alt="logo"></a>
                         <!-- Removed the close button -->
                     </div>
                     <div>
@@ -109,7 +110,7 @@
 
         <section id="researchProject" class="research dark">
             <div class="container">
-                <div class="uline researchsvg" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="3000"></div>
+                <div class="uline researchsvg" data-aos="zoom-in" data-aos-offset="100"></div>
                 <div class="flex-wrap exp-center" data-aos="fade-up">
                     <div>
                         <h2>Why are <span class="gradient-text">interactions</span> at home the best?</h2>
@@ -126,10 +127,10 @@
                         
                     </div>
                     <div class="research-left flex flex-col gap-2 mt-1">
-                        <div class="flex gap-1 research-question" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex gap-1 research-question" data-aos="fade-up">
                             <h2>This study will address following research questions.</h2>
                         </div>
-                        <div class="flex gap-1 ex-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex gap-1 ex-card" data-aos="fade-up" data-aos-delay="100">
                             <div class="flex flex-center">
                                 <h3>Q1</h3>
                             </div>
@@ -139,7 +140,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="flex gap-1 ex-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex gap-1 ex-card" data-aos="fade-up" data-aos-delay="200">
                             <div class="flex flex-center">
                                 <h3>Q2</h3>
                             </div>
@@ -268,7 +269,7 @@
                 </div>
                 <div class="lena-tech">
                     <div class="lena-device" data-aos="zoom-in">
-                        <img class="lena-image" decoding="async" src="./images/child-pedometer.webp">
+                        <img loading="lazy" class="lena-image" decoding="async" src="./images/child-pedometer.webp">
                         <h2 class="image-title">
                             <span>LENA Device</span>
                         </h2>
@@ -277,7 +278,7 @@
                         </div>
                     </div>
 
-                    <div class="lena-software" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="lena-software" data-aos="zoom-in" >
                         <img class="lena-image"  decoding="async" src="./images/software.webp">
                         <h2 class="image-title">
                             <span>LENA Software</span>
@@ -289,8 +290,11 @@
                 </div>
                 <div class="lena-video">
                     <h3>Watch How it <span class="gradient-text">Works,</span></h3>
-                    <iframe loading="lazy" data-aos="fade-up" width="757" height="450" src="https://www.youtube.com/embed/8DAW9g-NoLA?si=GWJXaMzBvZKYkD2j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <iframe loading="lazy" data-aos="fade-up" width="757" height="450" src="https://www.youtube.com/embed/XJMzuaR1QDI?si=tAvRKlNLpTd8FXkd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <iframe data-aos="fade-up" width="757" height="450" src="https://www.youtube.com/embed/8DAW9g-NoLA?si=GWJXaMzBvZKYkD2j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <iframe data-aos="fade-up" width="757" height="450" src="https://www.youtube.com/embed/XJMzuaR1QDI?si=tAvRKlNLpTd8FXkd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
                     <a href="https://www.lena.org/" target="_blank">Click here to learn more: https://www.lena.org/</a>
                 </div>
             </div>
@@ -418,34 +422,34 @@
         </section>
 
         <section class="work">
-            <video autoplay muted loop class="background-video">
+            <video data-aos="fade-up" muted autoplay loop class="background-video">
                 <source src="./images/earlytalk2.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div class="container position-relative">
-                <div class="fact-center" data-aos="fade-up" data-aos-delay="500">
+                <div class="fact-center">
                     <div>
                         <h2>✨For a <span class="gradient-text-2">Child,</span> responsive relationships are the foundation...</h2>
                         <h4>and it all starts with interactions</h4>
                     </div>
                 </div>
-                <div class="work-para text-center" data-aos="fade-up" data-aos-delay="1000">
+                <div class="work-para text-center" data-aos="fade-up">
                     <p>Simply follow the steps</p>
                 </div>
                 <div class="work-line flex flex-center gap-1 flex-wrap p-relative">
-                    <div data-aos="zoom-in" data-aos-delay="1400">
+                    <div data-aos="zoom-in" data-aos-delay="200">
                         <h2>01.</h2>
                         <h4>Fill Contact form</h4>
                     </div>
-                    <div data-aos="zoom-in" data-aos-delay="1800">
+                    <div data-aos="zoom-in" data-aos-delay="400">
                         <h2>02.</h2>
                         <h4>Meet Our Team</h4>
                     </div>
-                    <div data-aos="zoom-in" data-aos-delay="2200">
+                    <div data-aos="zoom-in" data-aos-delay="600">
                         <h2>03.</h4>
                         <h4>Get Free Training</h4>
                     </div>
-                    <div data-aos="zoom-in" data-aos-delay="2500">
+                    <div data-aos="zoom-in" data-aos-delay="800">
                         <h2>04.</h2>
                         <h4>Apply on your Child</h4>
                     </div>
@@ -587,17 +591,17 @@
 
         <section class="logos-title-large">
             <div class="container-5">
-                <div class="uline our-network" data-aos="zoom-in" data-aos-offset="100" data-aos-duration="3000"></div>
+                <div class="uline our-network" data-aos="zoom-in"></div>
                 <div class="logo-wrapper">
-                    <img data-aos="zoom-out" data-aos-offset="100" data-aos-duration="2000" data-aos-delay="100" src="./images/logo-section/asha.png" loading="lazy" alt="Arise Health logo" class="logo-image">
+                    <img data-aos="zoom-out" data-aos-delay="100" src="./images/logo-section/asha.png" loading="lazy" alt="Arise Health logo" class="logo-image">
 
-                    <img data-aos="zoom-out" data-aos-offset="100" data-aos-duration="2000" data-aos-delay="200"src="./images/logo-section/lena.png" loading="lazy" alt="The Paak logo" class="logo-image">
+                    <img data-aos="zoom-out" data-aos-delay="200"src="./images/logo-section/lena.png" loading="lazy" alt="The Paak logo" class="logo-image">
 
-                    <img data-aos="zoom-out" data-aos-offset="100" data-aos-duration="2000" data-aos-delay="300" src="./images/logo-section/thh.png" loading="lazy" alt="OE logo" class="logo-image">
+                    <img data-aos="zoom-out" data-aos-delay="300" src="./images/logo-section/thh.png" loading="lazy" alt="OE logo" class="logo-image">
 
-                    <img data-aos="zoom-out" data-aos-offset="100" data-aos-duration="2000" data-aos-delay="400" src="./images/logo-section/uoa.png" loading="lazy" alt="2020INC logo" class="logo-image">
+                    <img data-aos="zoom-out" data-aos-delay="400" src="./images/logo-section/uoa.png" loading="lazy" alt="2020INC logo" class="logo-image">
 
-                    <img data-aos="zoom-out" data-aos-offset="100" data-aos-duration="2000" data-aos-delay="500" src="./images/logo-section/nzsta.png" loading="lazy" alt="Ephicient logo" class="clients-image">
+                    <img data-aos="zoom-out" data-aos-delay="500" src="./images/logo-section/nzsta.png" loading="lazy" alt="Ephicient logo" class="clients-image">
                 </div>
             </div>
         </section>
@@ -740,7 +744,7 @@
             <div class="container">
                 <div>
                 </div>
-                <div class="contact-form">
+                <div class="contact-form" data-aos="zoom-in">
                     <div id="gooey2">
 
                     </div>
@@ -767,7 +771,7 @@
                 <div class="footer-top-wrapper">
                     <a href="#" class="footer-logo-link">
                         <div class="footer-logo">
-                            <img src="./images/small size logo blue ear-PhotoRoom 2.png" alt="">
+                            <img src="./images/small size logo blue ear-PhotoRoom 2.webp" alt="">
                         </div>
                     </a>
                     <div class="footer-link-list">
@@ -797,9 +801,22 @@
     
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            once: true,
+            duration: 1250,
+        });
     </script>
-    
+
+    <!-- jquery js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- jquery min js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        
     <script src="./js/script.js"></script>
 
 </body>
