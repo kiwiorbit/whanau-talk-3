@@ -1,5 +1,3 @@
-
-
 function toggleNav(open) {
     "use strict";
     const sidepanel = document.getElementById("mySidepanel");
@@ -23,9 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     anchorLinks.forEach(link => {
         link.addEventListener("click", closeNav);
     });
-});
-
-
+})
 
 
 function toggleCollapse(elementId) {
@@ -141,11 +137,6 @@ document.querySelector('.contact-form').addEventListener('mouseout', function() 
     document.querySelector('.contact-us-form').style.background = 'var(--gradient2)';
     document.querySelector('.contact-us-form').style.animation = 'none';
 });
-
-
-
-
-
 
 // footer validation start
 
