@@ -40,10 +40,6 @@
 
     --dark-textshadow:4px 4px 30px #000000;
 
-    
-
-    --form-sucess: #e2fded;
-    --form-error: #ffebeb;
 
     --bg-transparent: rgba(255, 255, 255, 0);
     --hover-background: rgba(255, 255, 255, .2);
@@ -53,10 +49,6 @@
     --secondary-font:"Raleway", sans-serif;
     --serif-font:"Playfair Display", serif;
 
-
-    --container-width-lg:80%;
-    --container-width-md:90%;
-    --container-width-sm:94%;
 
     --transition: all 250ms ease;
 }
@@ -655,7 +647,7 @@ nav img {
 /* Sidebar */
 
 aside {
-    background:linear-gradient(300deg, #493469, #000000bf, #000000b3, #0000009c, #135260);
+    background:var(--gradient2);
     z-index: 10;
 }
 
@@ -668,7 +660,7 @@ aside {
     left: -100%;
     overflow-x: hidden;
     transition: 0.5s;
-    padding: 40px 20px 20px 20px;
+    padding: 100px 20px 20px 20px;
     text-align: center;
     text-transform: uppercase;
     backdrop-filter: blur(10px);
@@ -710,6 +702,7 @@ aside ul {
 aside ul li {
     display: flex;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 
 aside li a {
@@ -1881,7 +1874,7 @@ aside li a {
 /* ====== 1.12. FAQ section ====== */
 
 .faq {
-    background-image: url("../images/2kids.jpg");
+    background-image: url("../images/2kids.webp");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1961,9 +1954,6 @@ aside li a {
 
 /* ====== End of 1.12. FAQ section ====== */
 
-/* ====== 1.13. Blogs section ====== */
-
-/* ====== End of 1.13. Blogs section ====== */
 
 .contact-us-form {
     margin: 0;
@@ -2065,9 +2055,6 @@ aside li a {
 }
 
 
-
-
-
 /* ====== 1.14. Footer section ====== */
 
 footer {
@@ -2131,17 +2118,6 @@ footer {
     font-size: 14px;
     padding: 1.5rem;
 }
-
-
-
-
-/* ====== End of 6.1. 404 / Coming Soon page ====== */
-
-/* ====== End of 6.1. 404 / Coming Soon page ====== */
-
-
-/* button back to top */
-
 
 
 
